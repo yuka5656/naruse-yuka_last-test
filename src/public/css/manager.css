@@ -1,0 +1,157 @@
+select {
+    appearance: none;
+}
+
+.header__inner {
+    position: relative;
+}
+
+.header-submit {
+    color: #D9C6B5;
+    background: #F0F0F0;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    padding: 0 10px;
+    border: solid 1px #D9C6B5;
+
+    position: absolute;
+    top: 35px;
+    right: 100px;
+}
+
+.contact-form__header-logo {
+    color: #8B7969;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.admin-form__content {
+    text-align: center;
+    position: relative;
+}
+
+.admin-form__content::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #E0DFDE transparent transparent transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.admin-form__content::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #E0DFDE transparent transparent transparent;
+    position: absolute;
+    right: 32%;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.admin-form__search {
+    padding: 10px 5px;
+}
+
+.admin-form__content button {
+    background-color: #FBFBFB;
+    position: absolute;
+    top: 8px;
+    left: 39%;
+}
+
+.admin-form__content input,
+select {
+    background-color: #FBFBFB;
+    border: solid 1px #E0DFDE;
+}
+
+.material-symbols-outlined {
+    color: #8B7969;
+}
+
+.form-select__all {
+    color: #8B7969;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0 35px;
+    width: 100px;
+}
+
+.form-select {
+    color: #8B7969;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-right: 35px;
+    width: 200px;
+}
+
+.form__date {
+    color: #8B7969;
+    padding: 10px 15px;
+}
+
+
+.admin-form {
+    padding: 60px 0 0 260px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.admin-form__item-submit {
+    background-color: #E1DBD6;
+    color: #8B7969;
+    border: none;
+    padding: 5px 20px;
+}
+
+.admin-table {
+    padding-top: 30px;
+}
+
+.admin-table__row {
+    background-color: #8B7969;
+}
+
+.admin-table__header {
+    color: #fff;
+    padding: 20px 50px;
+}
+
+.admin-table__header-submit {
+    padding: 25px 100px;
+}
+
+.admin-table td {
+    border: solid 1px #E0DFDE;
+    border-top: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+.admin-form__last-submit {
+    text-align: center;
+}
+
+.admin-form__last-submit button {
+    border: none;
+    background-color: #8B7969;
+    color: #fff;
+    margin-top: 45px;
+    padding: 10px 30px;
+    text-align: center;
+}
